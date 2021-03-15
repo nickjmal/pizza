@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Pizza</title>
+</head>
+<body>
+    <form name="PizzaOrder" id="haf">
+      <h1>JavaScript Pizza:</h1>
+
+      Name: <br><input name:="customer" id="cust" size="50" type="text"><br>
+      Address: <br><input name:="address" id="adr" size="45" type="text"><br>
+      City: <br><input name:="city" id="city" size="25" type="text"><br>
+      Phone: <br><input name:="phone" id="phone" size="25" type="text"><br>
+      E-mail: <br><input name:="email" id="email" size="35" type="text"><br>
+      <br>
+      <h4>Select topping:</h4>
+
+      <input name="topping" type="radio" value="Pepperoni">Pepperoni<br>
+      <input name="topping" type="radio" value="Sausage">Sausage<br>
+      <input name="topping" type="radio" value="Bacon">Bacon<br>
+      <input name="topping" type="radio" value="Mushrooms">Mushrooms<br>
+      <input name="topping" type="radio" value="Extra Cheese">ExtraCheese<br>
+
+      <h4>Crust Type:</h4>
+      <input name="Crust" type="radio" value="Regular">Regular<br>
+      <input name="Crust" type="radio" value="Thin">Thin<br>
+      <input name="Crust" type="radio" value="Pan">Pan<br>
+      <input name="Crust" type="radio" value="Brooklyn">Brooklyn<br>
+      <input name="Crust" type="radio" value="NewYork">NewYork<br>
+      <input name="Crust" type="radio" value="FlatBread">flatBread<br>
+
+      <h4>Amount:</h4>
+      <select id="sel">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+      </select>
+
+      <h4>Payment Method:</h4>
+      <input name="pay" type="radio" value="visa">Visa<br>
+      <input name="pay" type="radio" value="mastercard">Mastercard<br>
+      <input name="pay" type="radio" value="bitcoin">Bitcoin<br>
+      <br>
+
+      <input type="button" value="SEND" onClick="send()">
+      <br>
+      <br>
+      <h4>Order Confirmation</h4>
+      <div id="1b1Values"></div>
+
+
+
+
+
+    </form>
+    <script src="pizza.js"></script>
+</body>
+</html>
